@@ -1,10 +1,10 @@
 # PowerBI Dashboard for Lost Ark Raid Logs
 
-Lost Ark is an action MMORPG developed by Smilegate RPG. External applications were developed by players to track raid data and enabled players to upload their raid data logs for public use. 
+Lost Ark is an action MMORPG developed by Smilegate RPG. A major component of the game involves 8 person raids, where players work together to defeat a boss. In particular, the 3rd gate of the Thaemine raid is one of interest, given its recency and relative difficulty. In addition, external applications were developed by players to track raid data and enabled players to upload their raid data logs for public use. 
 
 This project uses specific Lost Ark raid data that is regularly scrapped from one of these external applications and can be found here: https://github.com/evilandrex/raided-loa-scraper/tree/main/data.
 
-The purpose of this project is to showcase the use of PowerBI for generating dashboards
+With the availability of raid data, this project showcases PowerBI for generating dashboards.
 
 ## Usage
 
