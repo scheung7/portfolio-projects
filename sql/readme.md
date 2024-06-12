@@ -23,7 +23,7 @@ Once the files and software pre-requisites are established, a new *schema* needs
 * To perform EDA, run the ***exploratory_data_analysis.sql*** script 
 
 ## Data Cleaning
-The first 5 rows of the raw data are:
+The first 5 rows of the raw data are: <br>
 ![alt text](raw_data.png)
 
 The data set was largely clean, however small issues such as duplicates, white spaces, similar and missing values were identified.
