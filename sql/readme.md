@@ -54,7 +54,7 @@ Once the data was cleaned, an analysis was conducted and these were the findings
 * Within the 3 year period, Amazon had the most layoffs, followed by Google and Meta. <br>
 ![alt text](top_company_layoffs.png)
 
-* The consumer industry experienced the most layoffs within the 3 year period
+* The consumer industry experienced the most layoffs within the 3 year period. <br>
 ![alt text](top_industry_layoffs.png)
 
 * There were considerably less layoffs in 2021 compared to other years. Even though only 3 months in 2023 were considered, by the end of the year, the total layoffs is likely to surpass even 2022.<br>
