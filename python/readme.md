@@ -43,8 +43,20 @@ The above default parameters achieve the following:
 * Make 20 API calls every 5 minutes where each API call gets 15 rows
 * The value of coins in the data is expressed in Australian dollars
 
-## Future development
+## Visualisations with plotly
 A snapshot of the dataset is as follows: <br>
 ![alt text](example_data.png)
 
-An interactive visualisation will be developed in the future with plotly to showcase data visualisations in Python.
+Here are some basic visualisations to showcase the plotly library and the ability to interact with the visualisations
+
+**Mean Percent Change** <br>
+![alt text](percent_change.png) <br>
+
+**Price over time** <br>
+The coin names on the side can be selected or unselected to change what data is viewed. <br>
+![alt text](price.png) <br>
+
+**Volume and Volume Change** <br>
+![alt text](volume_change_24h.png) <br>
+Hovering over data points brings up more information.
+![alt text](volume_24h.png) <br>
