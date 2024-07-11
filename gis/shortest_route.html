@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6db31a5bc9ae9cec215f522c8ad1a8b9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6db31a5bc9ae9cec215f522c8ad1a8b9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6db31a5bc9ae9cec215f522c8ad1a8b9 = L.map(
+                "map_6db31a5bc9ae9cec215f522c8ad1a8b9",
+                {
+                    center: [-37.774979900000005, 145.13800664267717],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_6db31a5bc9ae9cec215f522c8ad1a8b9);
+
+            
+
+        
+    
+            var tile_layer_e174ef696cace0006df7d38523a40581 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_e174ef696cace0006df7d38523a40581.addTo(map_6db31a5bc9ae9cec215f522c8ad1a8b9);
+        
+    
+            var marker_0f3cac389ae966969ed8a0ee348dd18f = L.marker(
+                [-37.774979900000005, 145.13800664267717],
+                {}
+            ).addTo(map_6db31a5bc9ae9cec215f522c8ad1a8b9);
+        
+    
+            var icon_7fda0a06f036784a3ef6c27feeb45cb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0f3cac389ae966969ed8a0ee348dd18f.setIcon(icon_7fda0a06f036784a3ef6c27feeb45cb6);
+        
+    
+            marker_0f3cac389ae966969ed8a0ee348dd18f.bindTooltip(
+                `<div>
+                     Ruffey Lake Park, Templestowe, Melbourne, City of Manningham, Victoria, 3106, Australia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1d5051cc04cfc0ea71b8cc2fe80a73b = L.marker(
+                [-37.79727345, 145.09387809999998],
+                {}
+            ).addTo(map_6db31a5bc9ae9cec215f522c8ad1a8b9);
+        
+    
+            var icon_3f7708e23214cb92eb3fdafea4aad622 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a1d5051cc04cfc0ea71b8cc2fe80a73b.setIcon(icon_3f7708e23214cb92eb3fdafea4aad622);
+        
+    
+            marker_a1d5051cc04cfc0ea71b8cc2fe80a73b.bindTooltip(
+                `<div>
+                     Greythorn Park Tennis Club, Victoria, Australia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9eade5935cac682b6d57a2fa73d36e80 = L.polyline(
+                [[-37.7757695, 145.1383675], [-37.775308, 145.1380279], [-37.7757582, 145.1345086], [-37.7763424, 145.1339407], [-37.7771397, 145.13285], [-37.7771411, 145.1327269], [-37.7770005, 145.1319792], [-37.7769912, 145.1318365], [-37.777102, 145.1316331], [-37.7774688, 145.1302997], [-37.7781446, 145.1301583], [-37.7783674, 145.1301762], [-37.7783566, 145.1300826], [-37.7780566, 145.1274975], [-37.7780509, 145.1274479], [-37.7778475, 145.1256951], [-37.7777453, 145.1244538], [-37.7781004, 145.1242296], [-37.7786792, 145.1238643], [-37.7790406, 145.1236253], [-37.7798996, 145.1235078], [-37.7821025, 145.1239852], [-37.7820673, 145.1237974], [-37.7820708, 145.1236074], [-37.7820819, 145.1235019], [-37.78217, 145.1228807], [-37.7821114, 145.1225635], [-37.7820425, 145.1218562], [-37.7820744, 145.1215032], [-37.7822712, 145.1201755], [-37.7820755, 145.1181414], [-37.7825828, 145.118057], [-37.7825191, 145.1173967], [-37.7825236, 145.1172791], [-37.7826438, 145.1164787], [-37.7837234, 145.116355], [-37.7844725, 145.1161547], [-37.7849715, 145.1152296], [-37.7850012, 145.1151234], [-37.7851027, 145.1148425], [-37.7854576, 145.1142446], [-37.7855071, 145.1141931], [-37.7863507, 145.113708], [-37.7863768, 145.1136894], [-37.7864521, 145.1137904], [-37.786535, 145.1137261], [-37.7868724, 145.1136892], [-37.7875006, 145.1135924], [-37.7876171, 145.1135182], [-37.7876168, 145.1107405], [-37.7881825, 145.106447], [-37.7881971, 145.1061667], [-37.7882252, 145.1059957], [-37.7882674, 145.1057299], [-37.788377, 145.1050194], [-37.7883935, 145.1049284], [-37.788419, 145.1047965], [-37.7884619, 145.1045411], [-37.7885978, 145.103844], [-37.7889315, 145.1026871], [-37.7889695, 145.1025802], [-37.7892886, 145.101646], [-37.7896902, 145.1002505], [-37.7898993, 145.099687], [-37.7908151, 145.0968164], [-37.7909664, 145.0963542], [-37.7912018, 145.0956248], [-37.7913776, 145.0950873], [-37.7914068, 145.0949965], [-37.7914628, 145.0948223], [-37.7915265, 145.094623], [-37.7916811, 145.0941457], [-37.792035, 145.0943336], [-37.7921178, 145.0944199], [-37.7924168, 145.0948456], [-37.7934057, 145.0942258], [-37.794271, 145.0934188], [-37.7951254, 145.0926347], [-37.7955482, 145.0924947], [-37.7965426, 145.0923022], [-37.7965787, 145.0922956], [-37.7975815, 145.0920974], [-37.797582, 145.0922818], [-37.7971692, 145.092609], [-37.7971056, 145.0929931], [-37.7973387, 145.093748]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6db31a5bc9ae9cec215f522c8ad1a8b9);
+        
+    
+            tile_layer_e174ef696cace0006df7d38523a40581.addTo(map_6db31a5bc9ae9cec215f522c8ad1a8b9);
+        
+</script>
+</html>
